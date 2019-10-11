@@ -1,5 +1,5 @@
 // Package envvar provides an opnionated way of handling environment variables as yaml files
-// an example yaml config can be found [here](https://github.com/drish/go-envvar/blob/master/example.yml)
+// see https://github.com/drish/go-envvar/blob/master/example.yml for an example config
 package envvar
 
 import (
