@@ -1,7 +1,7 @@
 // Package envvar provides an opnionated way of handling environment variables as yaml files
-//
 // the yaml config file consist of the following structure:
 //
+//```yml
 // required:
 //   - FOO
 //   - BAR
@@ -11,6 +11,7 @@
 //   VAR: SOP
 // staging:
 // prod:
+//```
 package envvar
 
 import (
