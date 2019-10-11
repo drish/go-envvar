@@ -14,6 +14,7 @@ var DEFAULTS_KEY = "defaults"
 var REQUIRED_KEY = "required"
 
 // Load configuration file from path, exits if can't load
+// TODO: if path is empty exit
 func Load(path, env string) {
 	var c interface{}
 
@@ -31,6 +32,7 @@ func Load(path, env string) {
 }
 
 // parse checks for the presence of env vars and sets them when necessary
+// TODO: load current env
 func parse(c interface{}) {
 	var requireds []string
 	defaults := make(map[string]string)
