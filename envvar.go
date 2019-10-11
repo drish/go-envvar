@@ -1,17 +1,5 @@
 // Package envvar provides an opnionated way of handling environment variables as yaml files
-// the yaml config file consist of the following structure:
-//
-//```yml
-// required:
-//   - FOO
-//   - BAR
-// defaults:
-//   BIZ: "set if unset"
-// dev:
-//   VAR: SOP
-// staging:
-// prod:
-//```
+// an example yaml config can be found [here](https://github.com/drish/go-envvar/blob/master/example.yml)
 package envvar
 
 import (
