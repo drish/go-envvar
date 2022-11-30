@@ -4,8 +4,6 @@ required:
 defaults:
   HOST: host
   PORT: "5006"
-  API_URL: url://
+  API_URL: http://
 develop:
   DB_NAME: testing
-staging:
-prod:
