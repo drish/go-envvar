@@ -5,5 +5,5 @@ defaults:
   HOST: host
   PORT: "5006"
   API_URL: http://
-develop:
+local:
   DB_NAME: testing
